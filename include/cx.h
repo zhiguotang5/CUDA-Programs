@@ -30,8 +30,8 @@
 
 // cuda includes
 #include "cuda_runtime.h"
-#include "device_launch_parameters.h"
-#include "helper_cuda.h"
+// #include "device_launch_parameters.h"
+// #include "helper_cuda.h"
 #include "thrust/host_vector.h"
 #include "thrust/device_vector.h"
 #if __CUDACC_VER_MAJOR__ < 12

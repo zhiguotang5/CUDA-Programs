@@ -17,8 +17,8 @@
 // C:\bin\ompsum.exe 1000000 1000 20
 // omp sum = 1.9999999978,steps 1000000 terms 1000 time 90.348 ms
 
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 #include <omp.h>
 #include "cxtimers.h"
 

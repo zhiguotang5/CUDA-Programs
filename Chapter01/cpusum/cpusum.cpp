@@ -12,8 +12,8 @@
 // C:\bin\cpusum.exe 1000000 1000
 // cpu sum = 1.9999999978,steps 1000000 terms 1000 time 1085.465 ms
 
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 #include "cxtimers.h"
 
 inline float sinsum(float x,int terms) // sin(x) = x - x^3/3! + x^5/5! ...
